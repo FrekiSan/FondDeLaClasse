@@ -1,0 +1,41 @@
+form {
+  width: 100%;
+  margin:  auto;
+}
+
+
+
+button {
+  background-color:rgb(228, 84, 1);
+  color:white; 
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+
+}
+
+input, textarea, button {
+  display: block;
+  font-size: 16px;
+  margin: auto;
+  width: 50%;
+  align-items: center;
+}
+
+
+.footer{
+
+    background-color: black;
+    color:white;
+
+}
+
+.reseau{
+
+    display: flex;
+
+}
+
+.reseau li {
+    color:rgb(228, 84, 1);
+}
