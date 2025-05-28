@@ -1,29 +1,32 @@
+h2{
+  color:rgb(228, 84, 1) ;
+}
+
+
 form {
-  width: 100%;
+  width: 50%;
   margin:  auto;
 }
 
 
 
 button {
-  background-color:rgb(228, 84, 1);
-  color:white; 
-  border: none;
-  cursor: pointer;
-  padding: 10px 15px;
+  background-color:#FCA500;
+  color:white ; 
+ padding: 10px 15px;
 
 }
 
 input, textarea, button {
   display: block;
   font-size: 16px;
-  margin: auto;
-  width: 50%;
+  margin: 10px 0;
+  width: 100%;
   align-items: center;
 }
 
 
-.footer{
+footer{
 
     background-color: black;
     color:white;
@@ -33,9 +36,11 @@ input, textarea, button {
 .reseau{
 
     display: flex;
+    gap:20px;
 
 }
 
 .reseau li {
-    color:rgb(228, 84, 1);
+    color: #FCA500;
+    list-style: none;
 }
