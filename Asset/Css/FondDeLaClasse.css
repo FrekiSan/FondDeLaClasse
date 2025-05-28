@@ -12,9 +12,6 @@ body {
 }
 
 /*color: #fca500*/
-h2{
-    color: #fca500
-}
 
     .container{
         display: grid;
@@ -32,6 +29,20 @@ h2{
     .plat3{
         grid-column: span 2;
 }
+
+@media (max-width: 728px) {
+  .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+  }
+
+  .plat1, .plat2, .plat3{
+        grid-column: auto;
+  } 
+
+}
+
 .avocado{
     height: 200px;
     width: 200px;
@@ -42,19 +53,9 @@ h2{
     height: 17px;
     width: auto;
     padding-left: 10px;
-    border-left: solid #fca500 3px;
+    border-left: solid #e45401  3px;
     gap: 10px;
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
+    margin-bottom:15px;
 }
 
 /*header de base*/
@@ -87,7 +88,7 @@ nav a {
 }
 
 nav a:hover {
-  color: rgb(66, 0, 248);
+  color: rgb(95, 0, 248);
 }
 
 /* Responsive : petit écran */
@@ -106,4 +107,54 @@ nav a:hover {
     margin: 10px 0;
     font-size: 1.1rem;
   }
+}
+
+h1, h2{
+  color:#e45401;
+  margin-bottom:15px ;
+}
+.bienvenu, .contacteznous{
+  margin:20px;
+}
+
+form {
+  width: 50%;
+  margin:  auto;
+}
+
+
+
+button {
+  background-color: #e45401 ;
+  color:white ; 
+ padding: 10px 15px;
+
+}
+
+input, textarea, button {
+  display: block;
+  font-size: 16px;
+  margin: 10px 0;
+  width: 100%;
+  align-items: center;
+}
+
+
+footer{
+
+    background-color: black;
+    color:white;
+
+}
+
+.reseau{
+
+    display: flex;
+    gap:20px;
+
+}
+
+.reseau li {
+    color: #FCA500;
+    list-style: none;
 }
